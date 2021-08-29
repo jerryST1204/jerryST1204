@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		html {
+			height:100%;
+			}
+		body {
+			position: fixed;
+			z-index: 1060;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			box-sizing: border-box;
+			height: 100%;
+			padding: .625em .625em 0;
+			overflow-x: hidden;
+			background-repeat: no-repeat;
+			background-image: url("https://scr.vn/wp-content/uploads/2020/08/T%C3%ACnh-y%C3%AAu-d%E1%BB%85-th%C6%B0%C6%A1ng-ng%E1%BB%8Dt-ng%C3%A0o-l%C3%A3ng-m%E1%BA%A1n.jpg");
+			background-size: cover;
+			opacity:0.98;
+			line-height: normal;
+			color:white;
+			position: relative;
+			 -webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			 } 
+		#box{
+			display:inline-block;
+			position:relative;
+			
+			height:630px;width:500px;
+			justify-content: center;
+			border-radius:10px;
+			line-height:55px;	
+			background-color:#2C3879;
+			position:relative;
+			grid-column: 2;
+			grid-row: 2;
+			align-self: center;
+			justify-self: center;
+			}
+		#hop{
+			display: inline-block;
+			position:relative;
+			
+			
+			height:630px;width:500px;
+			justify-content: center;
+			border-radius:10px;
+			line-height:55px;	
+			background-color:#FBEAEB;
+			display: none;
+			color: #3F52B1	;
+			grid-column: 2;
+			grid-row: 2;
+			align-self: center;
+			justify-self: center;
+			}
+		.dong	{
+			
+			display: grid;
+			grid-template-rows: auto auto auto .625em;
+		
+			
+			}
+		.cot	{
+			
+			display: grid;
+			grid-template-columns:auto minmax(0,1fr) auto;
+		
+			
+			}
+		.dongitem  {
+			
+			font-size: 20px;
+			text-allign: center;
+			}
+		
+		#stylebutton {
+			background-color: #FFAFF8;
+            color: white;
+			text-decoration:none;
+            border-radius:5px;
+            padding: 1px 20px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16	px;
+			position:relative;
+			border:none;
+			padding: .280	em 1.3em;
+
+			}
+		#stylebutton:active{
+			background-color: #332C66;
+			}
+		#stylebutton:hover{
+			background-color: #D792D0;
+			}
+
+	</style>
+	
+	<body class="cot">
+	
+		<div class="dong" id="hop" 	>
+			<div class="dongitem" style="font-size:20px;margin-left:10px;margin-right:10px;text-indent:30px;"><b>Heooo ơiii!!! Bỏ qua cho tao hôm qua nha!! Tại tao đôi khi hơi kiểu so sánh mình không bằng, không tốt, không khiến mày yêu nhiều như ông Lộc này nọ rồi tự trách mình này nọ chứ hong phải do mày có gì đó với ổng. Heoooo!! Dù có ta đã trải qua những giây phút khó khăn thì giờ tao muốn nói mày cái này nè là tao iuuuu Heooooo Thư nhiều lắm óoo hong giận tao nữa nhaaaa :333 </b> </div>
+			<center class="dongitem"> <img src="https://tikibook.com/upload/news/052021/truyen-ngon-tinh-hai-nhe-nhang.jpg" style="width:400px;margin:2em auto 1em;"> </center>
+		</div>
+		<div class="dong" id="box"  >
+			<div class="dongitem"><center>	<img src="https://phuongvusontrang.files.wordpress.com/2014/02/kichiku_megane_katsuya_chibi_by_katalla.jpg" style="width:300px;margin: 2em auto 1em;"> </center><div>
+			<div class="dongitem" style="font-size:30px" align="center"> <b> Heluuu heooooo:33 </b> </div>
+			<div class="dongitem" align="center"> tui nói này nghe nè! Cậu nghe honggg? </div>
+			<center><a class="dongitem" id="stylebutton" href="bae.html" target="_blank"> OK </a> </center>
+			
+		</div>
+		
+		<script language="javascript">
+
+			(function () {
+			var bas = ('#stylebutton');
+			if (bas[0].getContext)
+			{
+			setTimeout(function(){document.getElementById("box").style.display='none';},500);
+			setTimeout(function() 
+			{
+			document.getElementById("hop").style.display='block';
+			}, 2000);
+			};
+			
+			
+			})();
+		</script>
+	
+	</body>
+	
+</html>
